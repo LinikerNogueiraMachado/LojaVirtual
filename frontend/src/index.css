@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Ibarra+Real+Nova&family=Macondo&family=Open+Sans:wght@300&family=Playfair+Display&family=Poiret+One&family=Poppins:wght@400;500&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+
+/* ==== ==== estilizações globais ==== ==== */
+
+:root {
+
+  --font-Rubik: 'Rubik Burned', cursive;
+  --font-default: 'Open sans', sans-serif;
+
+  --box-shadow: 0 0 1rem #fff;
+
+  --clr-navbar: #ffffff;
+  --clr-primary: #191919;
+  --clr-secundary: #f07144;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-Rubik);
+}
+
+html,
+body {
+  background-color: var(--clr-primary);
+  color: var(--clr-secundary);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
