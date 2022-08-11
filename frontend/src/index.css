@@ -1,32 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Ibarra+Real+Nova&family=Macondo&family=Open+Sans:wght@300&family=Playfair+Display&family=Poiret+One&family=Poppins:wght@400;500&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Ibarra+Real+Nova&family=Macondo&family=Playfair+Display&family=Poiret+One&family=Poppins:wght@400;500&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
 
-/* ==== ==== estilizações globais ==== ==== */
+/* ==== ==== estilos globais ==== ==== */
 
 :root {
 
   --font-Rubik: 'Rubik Burned', cursive;
   --font-default: 'Open sans', sans-serif;
 
-  --box-shadow: 0 0 1rem #fff;
+  --shadow: 0 0 1rem #fff;
 
   --clr-navbar: #ffffff;
-  --clr-primary: #191919;
+  --clr-primary-dark: #191919;
+  --clr-primary-light: #2c2c2c;
   --clr-secundary: #f07144;
+
+  --clr-a-hover: #88ff00;
+
+  --clr-text-light: #eee;
+  --clr-text-dark: #585858;
+  --box-shadow: 0 0 50px rgba(0, 0, 0, .5);
 }
 
 * {
   box-sizing: border-box;
-  font-family: var(--font-Rubik);
+  font-family: var(--font-default);
+  margin: 0;
+  padding: 0;
 }
 
-html,
+html
 body {
-  background-color: var(--clr-primary);
+  background-color: var(--clr-primary-dark);
+  overflow-y: hidden;
+}
+
+h1,
+h3,
+h5 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  color: var(--clr-text-light);
+}
+
+span {
+  color: var(--clr-text-light);
+}
+
+.navbar a {
+  display: flex;
+  padding: 0;
+  margin: 1rem;
+  width: fit-content;
+}
+
+a {
+  text-decoration: none;
   color: var(--clr-secundary);
 }
 
-a,
 a:hover {
-  text-decoration: none;
-  color: unset;
+  color: var(--clr-a-hover);
+  text-shadow: var(--shadow);
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: var(--clr-primary-light) ;
+}
+
+footer a {
+  padding: 0;
+  margin: 1rem;
+  color: var(--clr-secundary);
+}
+
+footer h3 h5 {
+  font-size: 20px;
 }

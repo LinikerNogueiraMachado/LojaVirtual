@@ -1,0 +1,49 @@
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: var(--clr-primary-light);
+}
+
+header h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: 1rem;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: var(--shadow);
+    font-family: var(--font-Rubik);
+}
+
+#items-wrapper {
+    width: 100vw;
+}
+
+.item{
+    flex: none;
+    overflow-x: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-bg {
+    flex: none;
+    display: block;
+    overflow-x: none;
+}
+
+#items {
+    display: flex;
+    position: static;
+    top: 7vh;
+}
