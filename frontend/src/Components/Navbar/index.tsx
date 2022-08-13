@@ -9,12 +9,12 @@ function Navbar() {
             <header>
                 <h1>stylish man</h1>
                 <nav className="navbar">
-                    <a href="#home">Home</a>
-                    <a href="#coletes"> Coletes</a>
-                    <a href="#gravatas"> Gravatas</a>
-                    <a href="#blazer">Blazer casual</a>
-                    <a href="#sapatos"> Sapatos</a>
-                    <a href="#medida"> Sob Medida</a>
+                    <a href="/">Home</a>
+                    <a href="/"> Coletes</a>
+                    <a href="/"> Gravatas</a>
+                    <a href="/">Blazer casual</a>
+                    <a href="/"> Sapatos</a>
+                    <a href="/"> Sob Medida</a>
                 </nav>
             </header>
 
