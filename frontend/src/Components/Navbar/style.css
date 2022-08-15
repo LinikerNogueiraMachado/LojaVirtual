@@ -31,17 +31,6 @@ header h1 {
     overflow-x: auto;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.image-bg {
-    flex: none;
-    display: block;
-    overflow-x: none;
-}
-
 #items {
     display: flex;
     position: static;

@@ -7,9 +7,8 @@ function Medidas() {
     return (
 
         <>
-            <h1>Pagina sob medida</h1>
-            <div>
-                <img src={Medida} alt="Imagem ilustrativa" />
+            <div className="image-bg ">
+                <img src={Medida} />
             </div>
         </>
     );

@@ -8,11 +8,11 @@ function Navbar() {
                 <nav className="navbar">
                     <a href="/">Home</a>
                     <a href="/Coletes/1"> Coletes</a>
-                    <a href="/"> Gravatas</a>
-                    <a href="/">Blazer casual</a>
-                    <a href="/"> Sapatos</a>
+                    <a href="/Gravatas/1"> Gravatas</a>
+                    <a href="/Blazer/1">Blazer casual</a>
+                    <a href="/Sapatos/1"> Sapatos</a>
                     <a href="/Form/1">Cadastre-se</a>
-                    <a href="/Medidas"> Confira suas Medidas</a>
+                    <a href="/Medidas/1"> Confira suas Medidas</a>
                 </nav>
             </header>
                 
