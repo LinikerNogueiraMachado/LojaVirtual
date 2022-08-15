@@ -5,7 +5,7 @@ function Coletes() {
     return (
 
         <>
-            <h1>Pagina Coletes</h1>
+            <h1 className='h1-colet'>Confira nossos coletes</h1>
         </>
     );
 }

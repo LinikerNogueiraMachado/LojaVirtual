@@ -1,0 +1,12 @@
+.h1-colet {
+    top: 10vh;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 3.5rem;
+    margin: 1rem;
+    cursor: default;
+    text-shadow: var(--shadow);
+    font-family: var(--font-Rubik);
+}

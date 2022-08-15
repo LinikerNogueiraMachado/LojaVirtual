@@ -1,8 +1,5 @@
 import './style.css';
 
-import Gravat from 'assets/img/gravat.svg';
-
-
 function Navbar() {
     return (
         <>
@@ -10,17 +7,14 @@ function Navbar() {
                 <h1>stylish man</h1>
                 <nav className="navbar">
                     <a href="/">Home</a>
-                    <a href="/"> Coletes</a>
+                    <a href="/Coletes/1"> Coletes</a>
                     <a href="/"> Gravatas</a>
                     <a href="/">Blazer casual</a>
                     <a href="/"> Sapatos</a>
-                    <a href="/"> Sob Medida</a>
+                    <a href="/Form/1">Cadastre-se</a>
+                    <a href="/Medidas"> Confira suas Medidas</a>
                 </nav>
             </header>
-
-            <div>
-                <img src={Gravat} className='img-bg' alt="" />
-            </div>
                 
             <footer className="box-container">               
                         <h3>São Paulo - Brasil</h3>&nbsp;

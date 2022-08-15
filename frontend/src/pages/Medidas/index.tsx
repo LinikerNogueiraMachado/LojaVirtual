@@ -1,6 +1,6 @@
 import './style.css';
 
-//import MedidaBG from 'assets/img/';
+import Medida from 'assets/img/Medida.jpg';
 
 function Medidas() {
 
@@ -9,7 +9,7 @@ function Medidas() {
         <>
             <h1>Pagina sob medida</h1>
             <div>
-                <img src={} alt="Imagem ilustrativa" />
+                <img src={Medida} alt="Imagem ilustrativa" />
             </div>
         </>
     );
