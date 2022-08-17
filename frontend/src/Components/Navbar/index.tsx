@@ -1,4 +1,4 @@
-import './style.css';
+import Logo from 'assets/img/gravat.svg';
 
 function Navbar() {
     return (

@@ -8,6 +8,9 @@ import Navbar from "Components/Navbar";
 import Form from "Form";
 import Coletes from "pages/Coletes";
 import Medidas from "pages/Medidas";
+import Gravatas from "pages/Gravatas";
+import Blazer from "pages/Blazer";
+import Sapatos from "pages/Sapatos";
 
 
 function App() {
@@ -23,6 +26,15 @@ function App() {
         </Route>
         <Route path="/medidas">
           <Route path=':body' element={<Medidas />} />
+        </Route>
+        <Route path="/gravatas">
+          <Route path=':body' element={<Gravatas />} />
+        </Route>
+        <Route path="/blazer">
+          <Route path=':body' element={<Blazer />} />
+        </Route>
+        <Route path="/sapatos">
+          <Route path=':body' element={<Sapatos />} />
         </Route>
       </Routes>
     </BrowserRouter>

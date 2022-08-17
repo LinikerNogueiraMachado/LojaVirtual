@@ -1,4 +1,3 @@
-import './style.css';
 
 import Medida from 'assets/img/Medida.jpg';
 
@@ -8,7 +7,7 @@ function Medidas() {
 
         <>
             <div className="image-bg ">
-                <img src={Medida} />
+                <img src={Medida} alt='Medidas do terno'/>
             </div>
         </>
     );

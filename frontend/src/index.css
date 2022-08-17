@@ -37,13 +37,137 @@ body {
   overflow-y: hidden;
 }
 
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: var(--clr-primary-light);
+  box-shadow: var(--shadow);
+}
+
+header h1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  margin: 1rem;
+  font-size: 30px;
+  font-weight: 300;
+  text-shadow: var(--shadow);
+  font-family: var(--font-Rubik);
+}
+
+#items-wrapper {
+  width: 100vw;
+}
+
+.item{
+  flex: none;
+  overflow-x: auto;
+}
+
+#items {
+  display: flex;
+  position: static;
+  top: 7vh;
+}
+
+
 h1,
 h3,
 h5 {
-  font-size: 20px;
   padding: 0;
   margin: 0;
   color: var(--clr-text-light);
+}
+
+h3,
+h3:hover {
+  font-size: 15px;
+}
+
+.title {
+  top: 10vh;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 3.5rem;
+  margin: 1rem;
+  cursor: default;
+  text-shadow: var(--shadow);
+  font-family: var(--font-Default);
+}
+
+.container-display{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(4, 300px);
+}
+
+.card {
+  margin: auto;
+  top: 8vh;
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--clr-text-dark);
+  border-radius: 10px;
+}
+
+.card:hover {
+  border: 4px ridge var(--clr-secundary);
+  box-shadow: var(--shadow);
+}
+
+.card span {
+  font-size: 26px;
+}
+
+.card img {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.cards {
+  color: var(--clr-secundary);
+}
+
+.cards {
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-display{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(4, 300px);
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--clr-text-light);
+}
+
+h1:hover {
+  color: var(--clr-secundary);
+  text-shadow: var(--shadow);
 }
 
 span {
