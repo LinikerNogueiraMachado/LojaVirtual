@@ -8,26 +8,26 @@ function Blazer() {
     return (
 
         <>
-            <h1 className='title'>Confira nossos coletes</h1>
+            <h1 className='title'>Blazers</h1>
             <div className="container-display">
                 <div className="cards">
                     <div className='card' id='item-1'>
                         <span>Blazer social</span>
-                        <img className='img-cole' src={BlazerPreto} alt="Colete-001" />
+                        <img className='img-cole' src={BlazerPreto} alt="Blazers" />
                         <h1>R$ 99,90</h1>
                     </div>
                 </div>
                 <div className="cards">
                     <div className='card' id='item-1'>
                         <span>Blazer social</span>
-                        <img className='img-cole' src={BlazerGray} alt="Colete-001" />
+                        <img className='img-cole' src={BlazerGray} alt="Blazers" />
                         <h1>R$ 99,90</h1>
                     </div>
                 </div>
                 <div className="cards">
                     <div className='card' id='item-1'>
                         <span>Blazer social</span>
-                        <img className='img-cole' src={BlazerBlue} alt="Colete-001" />
+                        <img className='img-cole' src={BlazerBlue} alt="Blazers" />
                         <h1>R$ 99,90</h1>
                     </div>
                 </div>

@@ -8,26 +8,26 @@ function Gravatas() {
     return (
 
         <>
-        <h1 className='title'>Confira nossas gravatas</h1>
+        <h1 className='title'>Gravatas</h1>
             <div className="container-display">
                 <div className="cards">
                     <div className='card' id='item-1'>
                         <span>Gravatas</span>
-                        <img className='img-cole' src={GravataBlack} alt="Colete-001" />
+                        <img className='img-cole' src={GravataBlack} alt="gravatas" />
                         <h1>R$ 5,90</h1>
                     </div>
                 </div>
                 <div className="cards">
                     <div className='card' id='item-1'>
                         <span>Gravatas</span>
-                        <img className='img-cole' src={GravataPink} alt="Colete-001" />
+                        <img className='img-cole' src={GravataPink} alt="gravatas" />
                         <h1>R$ 5,90</h1>
                     </div>
                 </div>
                 <div className="cards">
                     <div className='card' id='item-1'>
                         <span>Gravatas</span>
-                        <img className='img-cole' src={KitGravatas} alt="Kit-01" />
+                        <img className='img-cole' src={KitGravatas} alt="gravatas" />
                         <h1>R$ 5,90</h1>
                     </div>
                 </div>

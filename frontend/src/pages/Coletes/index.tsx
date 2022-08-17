@@ -7,7 +7,7 @@ function Coletes() {
     return (
 
         <>
-            <h1 className='title'>Confira nossos coletes</h1>
+            <h1 className='title'>Coletes</h1>
             <div className="container-display">
                 <div className="cards">
                     <div className='card' id='item-1'>
