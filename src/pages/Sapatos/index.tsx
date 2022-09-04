@@ -13,21 +13,21 @@ function Sapatos() {
                     <div className='card' id='item-1'>
                         <span>Sapatos sociais</span>
                         <img className='img-cole' src={SapatoBlack} alt="Sapatos sociais" />
-                        <h1>R$ 5,90</h1>
+                        <h1>R$ 62,98</h1>
                     </div>
                 </div>
                 <div className="cards">
                     <div className='card' id='item-1'>
                         <span>Sapatos sociais</span>
                         <img className='img-cole' src={SapatoBordo} alt="Sapatos sociais" />
-                        <h1>R$ 5,90</h1>
+                        <h1>R$ 62,98</h1>
                     </div>
                 </div>
                 <div className="cards">
                     <div className='card' id='item-1'>
                         <span>Sapatos sociais</span>
                         <img className='img-cole' src={SapatoBrown} alt="Sapatos sociais" />
-                        <h1>R$ 5,90</h1>
+                        <h1>R$ 62,98</h1>
                     </div>
                 </div>
             </div>
